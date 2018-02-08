@@ -11,7 +11,7 @@ WIN_COMBINATIONS = [
 def won?(board)
   WIN_COMBINATIONS.each do |win|
      top_row_win = board[win[0][0]]
-    # position_2 = board[win[1]]
+     middle_row_win = board[win[0][1]]
     # position_3 = board[win[2]]
     # position_4 = board[win[3]]
 
