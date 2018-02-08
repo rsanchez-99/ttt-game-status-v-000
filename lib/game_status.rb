@@ -12,6 +12,8 @@ def won?(board)
   WIN_COMBINATIONS.each do |win|
      top_row_win = win[0]
      middle_row_win = win[1]
+     win_1 = board[top_row_win]
+     win_2 = board[middle_row_win]
     # position_3 = board[win[2]]
     # position_4 = board[win[3]]
 
