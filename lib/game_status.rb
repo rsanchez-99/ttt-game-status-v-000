@@ -19,7 +19,7 @@ def won?(board)
     # position_3 = board[win[2]]
     # position_4 = board[win[3]]
 
-     if win_1 == "X" || win_2 == "X" #|| board[win[2]] == "X"
+     if position_1 == "X" && position_2 == "X" && position_3 == "X"
       return win
     # elsif board[win[3]] == "X" || board[win[4]] == "X" || board[win[5]] == "X"
     #   return win
