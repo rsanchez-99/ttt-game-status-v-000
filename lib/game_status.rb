@@ -20,5 +20,6 @@ def won?(board)
     # elsif board[win[3]] == "X" || board[win[4]] == "X" || board[win[5]] == "X"
     #   return win
     end
+    return nil
   end
 end
